@@ -1,0 +1,40 @@
+@import './reset';
+@import './font';
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+#food-cashier {
+  font-family: 'Airbnb Cereal App', Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #000;
+  transition: .3s;
+  &.cart-on {
+    margin-right: 25vw;
+  }
+}
+.btn {
+  border: none;
+  font-family: 'Airbnb Cereal App', Avenir, Helvetica, Arial, sans-serif;
+}
+.btn.btn-primary {
+  background-color: #57CAD5;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn.btn-secondary  {
+  background-color: #F24F8A;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.d-none {
+  display: none;
+}
+
+
+@import './navbar';
+@import './home';
